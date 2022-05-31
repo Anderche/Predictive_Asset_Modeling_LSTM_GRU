@@ -1,5 +1,14 @@
 # Long Short-Term Memory (LSTM) versus Gated Recurrent Unit (GRU) Neural Networks 
 
+
+### BACKGROUND: 
+
+The following code implementation compares **LSTM** (Long Short-Term Memory) and **GRU** (Gated Recurrent Unit) neural networks to predict the future closing price of a publically traded (NYSE) company based on **multivariate inputs** (Open, High, and Low prices). 
+
+All models are assessed in terms of the **Root Mean Squared Error (RMSE) scores** for a baseline model and optimized model (differing in terms of epochs and hidden neurons). 
+
+After further optimization, the following implementation could theoretically be utilized for financial forecasting applications.
+
 ---
 
 ### NOTE: 
@@ -15,11 +24,3 @@ Alternatively, click the .ipynb file _(loading may take ~20-30 seconds)_ then cl
 ![image](https://user-images.githubusercontent.com/17456203/170380038-98cc73e6-6472-4b7a-b9b8-1deed347396c.png)
 
 ---
-
-### BACKGROUND: 
-
-The following code implementation compares **LSTM** (Long Short-Term Memory) and **GRU** (Gated Recurrent Unit) neural networks to predict the future closing price of a publically traded (NYSE) company based on **multivariate inputs** (Open, High, and Low prices). 
-
-All models are assessed in terms of the **Root Mean Squared Error (RMSE) scores** for a baseline model and optimized model (differing in terms of epochs and hidden neurons). 
-
-After further optimization, the following implementation could theoretically be utilized for financial forecasting applications.
